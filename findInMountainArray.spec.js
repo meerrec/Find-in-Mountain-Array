@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import assert from 'assert';
 // eslint-disable-next-line import/extensions
-import { findInMountainArray, MountainArray } from '../findInMountainArray.js';
+import { findInMountainArray, MountainArray } from './findInMountainArray.js';
 
 describe('[1, 2, 3, 4, 5, 3, 1], 3', () => {
   const array = [1, 2, 3, 4, 5, 3, 1];

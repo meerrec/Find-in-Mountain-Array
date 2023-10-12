@@ -15,7 +15,7 @@
   "main": "isMonotonicArray.js",
   "name": "Find in Mountain Array",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha ./findInMountainArray.spec.js"
   },
   "type": "module",
   "version": "1.0.0"
