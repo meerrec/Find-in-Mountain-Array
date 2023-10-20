@@ -17,5 +17,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  rules: {},
+  rules: {
+    "no-bitwise": ["error", { "allow": [">>"] }]
+  },
 };
